@@ -14,6 +14,7 @@
   <div class="ion-text-center image-box" #cover>
     <img [src]="'/assets/images/albums/'+dasherize(data.image)+'.jpg'" *ngIf="data">
   </div>
+      <div class="main">
         <!-- General information -->
         <ion-row>
           <ion-col size="12" class="album-info">
@@ -47,5 +48,5 @@
         <ion-icon slot="end" size="small" name="ellipsis-horizontal" color="light"></ion-icon>
       </ion-item>
     </ion-list>
-
+  </div>
 </ion-content>
